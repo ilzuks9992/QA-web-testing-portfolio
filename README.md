@@ -1,35 +1,38 @@
-# QA-web-testing-portfolio
-Contents
+# QA Portfolio – Manual Testing of Vivi.lv
 
-01_README.md or Project_Overview
+Overview
 
-02_docs/
-  Product_Analysis.md
-  Requirements.md
-  Test_Strategy.md
-  Test_Plan.md
-  Risk_Analysis.md
-  Test_Summary.md
+This repository contains a manual QA testing project created as part of my preparation for a Junior QA Tester role.
 
-03_checklists/
-  Login_Checklist.xlsx
-  Search_Checklist.xlsx
-  Checkout_Checklist.xlsx
+The project demonstrates the complete manual testing process using the publicly available functionality of https://www.vivi.lv.
 
-04_test-cases/
-  Login_Test_Cases.xlsx
-  Registration.xlsx
-  Cart.xlsx
+Disclaimer: This is an independent educational project and is not affiliated with or endorsed by Vivi or AS Pasažieru vilciens.
 
-05_bug-reports/
-  BUG-001.md
-  BUG-002.md
-  BUG-003.md
+Project Scope
+* Product Analysis
+* Test Strategy
+* Test Plan
+* Checklists
+* Test Cases
+* Bug Reports
+* Test Execution
+* Test Summary
 
-06_api/
-Postman_Collection.json
-API_Test_Cases.xlsx
-07_sql/
-SQL_Queries.sql
-08_screenshots/
-09_resources/
+Tools
+* Git & GitHub
+* Microsoft Excel
+* Chrome DevTools
+* Postman
+* Visual Studio Code
+
+Repository Structure
+docs/
+checklists/
+test-cases/
+bug-reports/
+screenshots/
+api/
+sql/
+
+Goal
+The purpose of this repository is to demonstrate my practical Manual QA skills and understanding of the software testing lifecycle while building a professional portfolio.
