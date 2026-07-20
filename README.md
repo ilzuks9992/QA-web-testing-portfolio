@@ -25,14 +25,14 @@ Tools
 * Postman
 * Visual Studio Code
 
-Repository Structure
-docs/
-checklists/
-test-cases/
-bug-reports/
-screenshots/
-api/
-sql/
+Repository Structure: 
+* docs/
+* checklists/
+* test-cases/
+* bug-reports/
+* screenshots/
+* api/
+* sql/
 
 Goal
 The purpose of this repository is to demonstrate my practical Manual QA skills and understanding of the software testing lifecycle while building a professional portfolio.
