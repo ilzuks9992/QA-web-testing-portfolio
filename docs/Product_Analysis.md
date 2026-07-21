@@ -25,21 +25,25 @@ Status:
 Draft
 
 
-* Purpose of the Document
+Purpose of the Document:
+
 The purpose of this document is to analyse the Vivi.lv web application before starting the testing process.
 It provides an overview of the system, identifies its main features, target users, and functional modules, and establishes a foundation for planning and designing test activities.
 The information in this document will be used to create the Test Strategy, Checklists, Test Cases, and other testing documentation.
 
-* Product Overview
+Product Overview
+
 Vivi.lv is the official website of Latvia’s passenger rail service. It provides passengers with access to train travel information and online services.
 The website allows users to search train routes, view timetables, purchase tickets, manage their user accounts, and access travel-related information. It also provides customer support information, news and announcements, and service updates.
 The platform is designed to make train travel planning and ticket purchasing simple, fast, and convenient for passengers.
 
-* Business Purpose
+Business Purpose
+
 The purpose of Vivi.lv is to provide passengers with a convenient online platform for planning train journeys and purchasing tickets.
 The website supports the company’s passenger transport services by offering travel information, online ticket sales, and customer self-service.
 
-* Target Users
+Target Users
+
 The Vivi.lv website is intended for people who travel by train in Latvia.
 Primary users include:
 * Daily commuters
@@ -48,7 +52,8 @@ Primary users include:
 * Occasional travellers
 * Senior citizens
 
-* Main Features
+  Main Features
+  
 * Train route search
 * Online ticket purchase
 * Timetable viewing
@@ -58,13 +63,13 @@ Primary users include:
 * Other travel information
 * News and Announcements
 
-* Functional Modules
+  Functional Modules
   Home Page:
   * Navigation
   * Train Search
   * Language selection
   * User Authentication
-    
+
 * Timetable
 * Search Results
 * Ticket Selection
