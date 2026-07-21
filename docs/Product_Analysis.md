@@ -1,6 +1,29 @@
 Document Information
 
-Dokumenta nosaukums, versija, autors, datums.
+Document
+Product Analysis
+
+Project
+QA Portfolio – Manual Testing of Vivi.lv
+
+Website
+https://www.vivi.lv
+
+Version
+1.0
+
+Author
+Ilze Brakovska
+
+Created
+2026-07-20
+
+Last Updated
+2026-07-21
+
+Status
+Draft
+
 
 Purpose of the Document
 
