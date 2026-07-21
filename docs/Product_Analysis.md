@@ -1,53 +1,80 @@
 Document Information
 
-Document
+Document:
 Product Analysis
 
-Project
+Project:
 QA Portfolio – Manual Testing of Vivi.lv
 
-Website
+Website:
 https://www.vivi.lv
 
-Version
+Version:
 1.0
 
-Author
+Author:
 Ilze Brakovska
 
-Created
+Created:
 2026-07-20
 
-Last Updated
+Last Updated:
 2026-07-21
 
-Status
+Status:
 Draft
 
 
-Purpose of the Document
+* Purpose of the Document
+The purpose of this document is to analyse the Vivi.lv web application before starting the testing process.
+It provides an overview of the system, identifies its main features, target users, and functional modules, and establishes a foundation for planning and designing test activities.
+The information in this document will be used to create the Test Strategy, Checklists, Test Cases, and other testing documentation.
 
-Kāpēc šis dokuments ir izveidots.
+* Product Overview
+Vivi.lv is the official website of Latvia’s passenger rail service. It provides passengers with access to train travel information and online services.
+The website allows users to search train routes, view timetables, purchase tickets, manage their user accounts, and access travel-related information. It also provides customer support information, news and announcements, and service updates.
+The platform is designed to make train travel planning and ticket purchasing simple, fast, and convenient for passengers.
 
-Product Overview
+* Business Purpose
+The purpose of Vivi.lv is to provide passengers with a convenient online platform for planning train journeys and purchasing tickets.
+The website supports the company’s passenger transport services by offering travel information, online ticket sales, and customer self-service.
 
-Kas ir Vivi un ko tas piedāvā.
+* Target Users
+The Vivi.lv website is intended for people who travel by train in Latvia.
+Primary users include:
+* Daily commuters
+* Students
+* Tourists
+* Occasional travellers
+* Senior citizens
 
-Business Purpose
+* Main Features
+* Train route search
+* Online ticket purchase
+* Timetable viewing
+* User registration and login
+* User profile management
+* Customer support
+* Other travel information
+* News and Announcements
 
-Kāds ir sistēmas biznesa mērķis.
-
-Target Users
-
-Kas izmanto sistēmu.
-
-Main Features
-
-Galvenās funkcijas.
-
-Functional Modules
-
-Sistēmas sadalījums moduļos.
+* Functional Modules
+  Home Page:
+  * Navigation
+  * Train Search
+  * Language selection
+  * User Authentication
+    
+* Timetable
+* Search Results
+* Ticket Selection
+* Ticket Purchase
+* My Tickets
+* User Profile
+* Account Settings
+* News and Announcements
+* Contact & Support
+* Footer
 
 User Journey
 
