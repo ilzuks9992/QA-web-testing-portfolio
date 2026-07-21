@@ -52,7 +52,7 @@ Primary users include:
 * Occasional travellers
 * Senior citizens
 
-  Main Features
+Main Features
   
 * Train route search
 * Online ticket purchase
@@ -63,8 +63,9 @@ Primary users include:
 * Other travel information
 * News and Announcements
 
-  Functional Modules
-  Home Page:
+Functional Modules
+
+   Home Page:
   * Navigation
   * Train Search
   * Language selection
