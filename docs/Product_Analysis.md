@@ -73,12 +73,14 @@ Primary users include:
 * News Search
 * Changes
 * Map
+  
   My Account
 * My Tickets
 * Account Settings
 * Payment Cards
 * Favourite Routes
 * Purchase History
+  
   Additional Modules
 * Ticket Selection
 * Ticket Purchase
