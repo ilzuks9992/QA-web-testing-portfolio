@@ -64,7 +64,7 @@ Primary users include:
 
 ### Functional Modules
 
-  Home Page
+Home Page
 * Navigation
 * Language selection
 * Train Search
@@ -73,15 +73,15 @@ Primary users include:
 * News Search
 * Changes
 * Map
-  
-  My Account
+
+My Account
 * My Tickets
 * Account Settings
 * Payment Cards
 * Favourite Routes
 * Purchase History
   
-  Additional Modules
+Additional Modules
 * Ticket Selection
 * Ticket Purchase
 * News & Changes
