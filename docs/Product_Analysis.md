@@ -19,7 +19,7 @@ Created:
 2026-07-20
 
 Last Updated:
-2026-07-21
+2026-07-24
 
 Status:
 Draft
@@ -54,42 +54,63 @@ Primary users include:
 
 Main Features
   
-* Train route search
+* Train search and timetable
 * Online ticket purchase
-* Timetable viewing
 * User registration and login
 * User profile management
 * Customer support
-* Other travel information
-* News and Announcements
+* Travel information
+* News and Service Updates
 
 Functional Modules
 
-   Home Page:
-  * Navigation
-  * Train Search
-  * Language selection
-  * User Authentication
-
-* Timetable
-* Search Results
+  ### Home Page
+* Navigation
+* Language selection
+* Train Search
+* Notifications
+* News 
+* News Search
+* Changes
+* Map
+### My Account
+* My Tickets
+* Account Settings
+* Payment Cards
+* Favourite Routes
+* Purchase History
+### Additional Modules
 * Ticket Selection
 * Ticket Purchase
-* My Tickets
-* User Profile
-* Account Settings
-* News and Announcements
+* News & Changes
 * Contact & Support
-* Footer
+* Accessibility
+* Click-to-Call
 
 User Journey
 
-Tipisks lietotāja ceļš sistēmā.
+1. Open the Vivi.lv website
+2. Search for a train route
+3. Select a suitable train
+4. Purchase a ticket
+5. Receive the ticket
+6. View the ticket in the account or email
 
 Assumptions
 
-Pieņēmumi, ko izdari, jo ne visas prasības ir publiski pieejamas.
+* The analysis is based only on publicly available information from the Vivi.lv website.
+* Internal business requirements and technical documentation are not available.
+* Functional behaviour is evaluated from the perspective of an end user.
+* The identified features and modules may be updated as the analysis progresses.
 
 Out of Scope
 
-Kas šajā projektā netiks testēts.
+The following areas are outside the scope of this project:
+
+* Backend functionality
+* Database validation
+* Source code review
+* Performance and load testing
+* Security testing
+* Mobile application testing
+* Third-party integrations
