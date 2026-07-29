@@ -68,7 +68,6 @@ User Flow 1 – Visitor Experience
 * Navigation
 * Language Selection
 * News
-* News Search
 * Changes
 * Map
 * Contact & Support
