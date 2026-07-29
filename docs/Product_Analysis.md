@@ -64,30 +64,28 @@ Primary users include:
 
 ### Functional Modules
 
-Home Page
+User Flow 1 – Visitor Experience
 * Navigation
-* Language selection
-* Train Search
-* Notifications
-* News 
+* Language Selection
+* News
 * News Search
 * Changes
 * Map
-
-My Account
-* My Tickets
-* Account Settings
-* Payment Cards
-* Favourite Routes
-* Purchase History
-  
-Additional Modules
-* Ticket Selection
-* Ticket Purchase
-* News & Changes
 * Contact & Support
 * Accessibility
 * Click-to-Call
+
+User Flow 2 – Ticket Purchase
+* Train Search
+* Ticket Selection
+* Ticket Purchase
+
+User Flow 3 – Registered User
+* My Tickets
+* Purchase History
+* Favourite Routes
+* Payment Cards
+* Account Settings
 
 ### User Journey
 
