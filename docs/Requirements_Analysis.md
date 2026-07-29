@@ -5,6 +5,10 @@ Requirements Analysis
 2. Purpose of the Document
 
 3. Functional Requirements
+* **FR-017** The system shall provide a navigation menu on all public pages.
+* **FR-018** The system shall display all available navigation items in the navigation menu.
+* **FR-019** The system shall navigate to the selected page when a navigation menu item is selected.
+
 
    Train Search
 * FR-001 The system shall allow the user to select a departure station.
