@@ -1,25 +1,184 @@
-# Test Strategy
+### 1. Document Information
 
-## 1. Document Information
+Document: Test Strategy 
+Identifier: QA-TS-2026-001
+Project: QA Portfolio – Vivi.lv Manual Testing
+Website: https://www.vivi.lv
+Version: 1.0
+Author: Ilze Brakovska
+Created: 2026-07-20
+Last Updated:  
 
-## 2. Test Objectives
+### 2. Test Objectives
 
-## 3. Test Scope
+The objective of this test strategy is to define the approach for testing the Vivi.lv website and to validate its functionality and usability.
+The testing objectives are to:
+* Verify that the system functions according to the defined requirements.
+* Validate the main user journeys.
+* Identify functional defects and usability issues.
+* Verify a consistent user experience across the website.
 
-## 4. Testing Approach
 
-## 5. Test Types
+### 3. Test Scope
 
-## 6. Test Levels
+In Scope
 
-## 7. Test Environment
+The following areas are included in the scope of testing:
+* Public website pages
+* Navigation
+* Language selection
+* Notifications
+* News and news search
+* Route changes
+* Interactive map
+* Train search
+* Ticket selection
+* Ticket purchase
+* User authentication
+* My Account
+* Payment cards
+* Favourite routes
+* Purchase history
+* Contact and support
+* Accessibility
+* Click-to-Call
 
-## 8. Test Data
+Out of Scope
 
-## 9. Entry and Exit Criteria
+The following areas are excluded from the scope of testing:
+* Backend services and internal system logic
+* Database functionality
+* Infrastructure and server performance testing
+* Third-party service implementations
+* Production infrastructure, monitoring, and system administration
 
-## 10. Defect Management
+### 4. Testing Approach
 
-## 11. Test Deliverables
+Testing will be performed using a black-box approach based on publicly available website functionality and defined user flows.
 
-## 12. Risks and Mitigation
+The following testing techniques will be used:
+
+* Requirement-based testing to verify compliance with functional requirements.
+* Scenario-based testing to validate end-to-end user journeys.
+* Exploratory testing to identify unexpected behaviour and usability issues.
+* Regression testing to verify that existing functionality continues to work after changes.
+
+
+### 5. Test Types
+
+Functional Testing
+Functional testing will verify that system features operate according to the defined requirements.
+Examples:
+* Train search
+* Ticket purchase
+* User account management
+* News search
+* Contact form submission
+
+Usability Testing
+Usability testing will evaluate:
+* Navigation clarity
+* User interface consistency
+* User interaction flow
+* Error message clarity
+
+Accessibility Testing
+Accessibility testing will verify:
+* Text size adjustment
+* Colour contrast options
+* Accessibility settings reset functionality
+
+Regression Testing
+Regression testing will confirm that existing functionality remains unaffected after changes or fixes.
+
+### 6. Test Levels
+
+System Testing
+The website will be tested as a complete system from an end-user perspective.
+
+Integration Testing
+Available user-facing integrations will be validated where possible, including:
+* Authentication flow
+* Payment-related user flows
+* External map functionality
+* Email communication features
+
+### 7. Test Environment
+
+Testing will be performed using:
+
+Environment:
+* Web browser-based testing environment
+
+Browsers:
+* Google Chrome
+
+Devices:
+* Desktop computer
+
+Testing Tools:
+* Browser Developer Tools
+* Jira defect tracking tool
+* GitHub for documentation management
+
+### 8. Test Data
+
+Testing will use representative test data, including:
+
+* Valid and invalid station selections
+* Different travel dates
+* Search criteria variations
+* User account data
+* Contact form input data
+* Different accessibility settings
+
+### 9. Entry Criteria
+
+Testing can begin when:
+* Requirements analysis has been completed.
+* The test strategy has been approved.
+* Test scenarios have been prepared.
+* The test environment is available.
+* The website is available for testing.
+
+### 10. Exit Criteria
+
+Testing can be completed when:
+* Planned test scenarios have been executed.
+* Critical user flows have been validated.
+* Critical defects have been documented.
+* Test results have been recorded.
+* A test summary report has been completed.
+
+11. Defect Management
+
+Defects identified during testing shall be documented and tracked until resolution.
+
+Each defect report shall include:
+
+* Defect ID
+* Summary
+* Steps to reproduce
+* Expected result
+* Actual result
+* Severity
+* Priority
+* Supporting evidence (if applicable)
+
+### 12. Test Deliverables
+
+The following testing documents will be produced:
+
+* Test Checklists
+* Test Scenarios
+* Test Cases
+* Test Execution Results
+* Bug Reports
+* Test Summary Report
+
+13. Risks and Mitigation
+
+Risk	Mitigation
+Website functionality may change during testing. Update test documentation and test cases as needed.
+Limited access to test accounts or test data may restrict test coverage.	 Perform testing using available accounts and document any limitations.
+Third-party services may be unavailable or behave unexpectedly.	Verify user-facing functionality and document any third-party limitations.
