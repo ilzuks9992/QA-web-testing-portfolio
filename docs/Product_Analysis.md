@@ -1,28 +1,13 @@
-Document Information
+### 1. Document Information
 
-Document:
-Product Analysis
-
-Project:
-QA Portfolio – Manual Testing of Vivi.lv
-
-Website:
-https://www.vivi.lv
-
-Version:
-1.0
-
-Author:
-Ilze Brakovska
-
-Created:
-2026-07-20
-
-Last Updated:
-2026-07-24
-
-Status:
-Draft
+Document: Product Analysis
+Identifier: QA-PA-2026-001
+Project: QA Portfolio – Vivi.lv Manual Testing
+Website: https://www.vivi.lv
+Version: 1.0
+Author: Ilze Brakovska
+Created: 2026-07-20
+Last Updated: 
 
 
 ### Purpose of the Document:
@@ -67,8 +52,9 @@ Primary users include:
 User Flow 1 – Visitor Experience
 * Navigation
 * Language Selection
+* Notifications
 * News
-* Changes
+* Train route changes
 * Map
 * Contact & Support
 * Accessibility
@@ -80,11 +66,18 @@ User Flow 2 – Ticket Purchase
 * Ticket Purchase
 
 User Flow 3 – Registered User
+* Authentication
 * My Tickets
-* Purchase History
-* Favourite Routes
-* Payment Cards
 * Account Settings
+	- Personal Information
+	- Password
+	- Notifications
+	- Ticket Delivery
+	- Discount Cards
+* Payment Cards
+* Favourite Routes
+* Purchase History
+* Delete Account
 
 ### User Journey
 
