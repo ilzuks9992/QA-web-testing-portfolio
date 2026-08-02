@@ -1,6 +1,17 @@
-Requirements Analysis
+### 1. Document Information
 
-1. Functional Requirements
+Document: Requirements Analysis 
+Identifier: QA-RA-2026-001
+Project: QA Portfolio – Vivi.lv Manual Testing
+Website: https://www.vivi.lv
+Version: 1.0
+Author: Ilze Brakovska
+Created: 2026-07-20
+Last Updated:  
+
+
+
+### 1. Functional Requirements
 
 
 User Flow 1 – Visitor Experience
@@ -158,7 +169,7 @@ Delete Account
 * FR-099 The system shall allow the user to delete the account.
 
 
-2. Non-Functional Requirements
+### 2. Non-Functional Requirements
 
 Performance
 * NFR-001 The system shall provide acceptable page loading performance under normal operating conditions.
@@ -191,9 +202,9 @@ Reliability
 * NFR-017 The system shall provide informative messages when requested operations cannot be completed.
 
 
-## 5. Business Rules
+### 5. Business Rules
 
-### Ticket Purchase Rules
+Ticket Purchase Rules
 * BR-001 A valid departure station and destination station must be selected before a train route search can be performed.
 * BR-002 The departure station and destination station must be different.
 * BR-003 A valid travel date must be selected before available train routes can be displayed.
@@ -201,44 +212,44 @@ Reliability
 * BR-005 All required purchase information must be provided before the payment process can be completed.
 * BR-006 Ticket purchase shall be available for both guest users and registered users.
 
-### User Account Rules
+ User Account Rules
 * BR-007 Valid authentication credentials are required to access account-related functionality.
 * BR-008 Personal account information shall only be accessible to authenticated users.
 * BR-009 The current password must be provided before a new password can be set.
 * BR-010 The new password must be confirmed before completing the password change process.
 * BR-011 User account information shall be associated with the authenticated user account.
 
-### Ticket and Purchase History Rules
+ Ticket and Purchase History Rules
 * BR-012 Purchased tickets shall be linked to the user account when the purchase is completed by an authenticated user.
 * BR-013 Purchase history shall contain only tickets associated with the authenticated user account.
 * BR-014 Ticket details displayed in purchase history shall correspond to the completed purchase transaction.
 
-### Notification and Favourite Route Rules
+ Notification and Favourite Route Rules
 * BR-015 Users may subscribe to notifications for selected routes.
 * BR-016 Users may manage notification preferences through account settings.
 * BR-017 Favourite routes shall be associated with the authenticated user account.
 
-### Contact and Support Rules
+Contact and Support Rules
 * BR-018 Required contact information must be provided before a contact form submission can be completed.
 * BR-019 Submitted contact forms shall include the user inquiry details before submission.
 * BR-020 Attached files must comply with the supported file format requirements before submission.
 
-### Accessibility Rules
+ Accessibility Rules
 * BR-021 Accessibility settings selected by the user shall be applied to the user interface.
 * BR-022 Accessibility settings shall remain active during user navigation until changed or reset.
 * BR-023 Users shall be able to restore accessibility settings to the default configuration.
 
-### News Search
+ News Search
 * BR-024 News search shall return only news items matching the entered search criteria.
 * BR-025 News search shall be available for published news items.
 * BR-026 The system shall display an appropriate message when no matching news items are found.
 
-### Map and Route Information Rules
+ Map and Route Information Rules
 * BR-027 Train information displayed on the map shall correspond to the selected train route or train indicator.
 * BR-028 Station information shall be displayed only after the user selects a valid station.
 * BR-029 Nearby train information shall correspond to the selected station.
 
-4. Assumptions
+### 4. Assumptions
 * ASS-001 The requirements analysis is based on publicly available Vivi.lv website functionality and user interface observations.
 * ASS-002 Internal system requirements, technical specifications, and backend processes are not accessible for review.
 * ASS-003 The observed website behaviour is considered to represent the intended system functionality.
@@ -247,7 +258,7 @@ Reliability
 * ASS-006 The analysis reflects the functionality available at the time of testing and may not represent future system changes.
 * ASS-007 Test data, user accounts, and system configurations used during testing are considered representative of typical user scenarios.
 
-5. Risks
+### 5. Risks
 * RISK-001 Website functionality may change after completion of the requirements analysis.
 * RISK-002 The analysis may not fully cover internal system behaviour due to limited access to backend processes and technical documentation.
 * RISK-003 Some functionality may rely on third-party services that are outside the scope of this project and cannot be fully validated.
@@ -256,7 +267,7 @@ Reliability
 * RISK-006 Changes to external services or integrations may impact system functionality.
 * RISK-007 Testing results may not represent all possible user scenarios due to limitations of the available test environment.
 
-6. Open Questions
+### 6. Open Questions
 * OQ-001 Which browsers and browser versions are officially supported by the system?
 * OQ-002 What are the defined performance requirements for page loading and search response times?
 * OQ-003 What password complexity requirements apply to user authentication?
