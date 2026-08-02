@@ -29,7 +29,6 @@ The following areas are included in the scope of testing:
 * Language selection
 * Notifications
 * News and news search
-* Route changes
 * Interactive map
 * Train search
 * Ticket selection
@@ -127,7 +126,7 @@ Testing will use representative test data, including:
 
 * Valid and invalid station selections
 * Different travel dates
-* Search criteria variations
+* Search input variations
 * User account data
 * Contact form input data
 * Different accessibility settings
@@ -178,7 +177,6 @@ The following testing documents will be produced:
 
 13. Risks and Mitigation
 
-Risk	Mitigation
 Website functionality may change during testing. Update test documentation and test cases as needed.
 Limited access to test accounts or test data may restrict test coverage.	 Perform testing using available accounts and document any limitations.
 Third-party services may be unavailable or behave unexpectedly.	Verify user-facing functionality and document any third-party limitations.
