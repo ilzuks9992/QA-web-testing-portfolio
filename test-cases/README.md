@@ -1,12 +1,8 @@
-Test Case ID:
+Test Case ID:   TC-001
 
-TC-001
+Test Scenario:  TS-001 Verify website navigation
 
-Test Scenario:
-* TS-001 Verify website navigation
-
-Title:
-* Verify navigation menu availability on public pages
+Title:          Verify navigation menu availability on public pages
 
 Preconditions:
 * User opens the Vivi.lv homepage
