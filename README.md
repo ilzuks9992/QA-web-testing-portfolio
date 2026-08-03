@@ -10,29 +10,18 @@ Disclaimer: This is an independent educational project and is not affiliated wit
 
 Project Scope
 * Product Analysis
+* Requirement Analysis
 * Test Strategy
-* Test Plan
-* Checklists
+* Test Scenario
 * Test Cases
 * Bug Reports
 * Test Execution
 * Test Summary
 
 Tools
-* Git & GitHub
-* Microsoft Excel
+* GitHub
+* Jira
 * Chrome DevTools
-* Postman
-* Visual Studio Code
-
-Repository Structure: 
-* docs/
-* checklists/
-* test-cases/
-* bug-reports/
-* screenshots/
-* api/
-* sql/
 
 Goal
 The purpose of this repository is to demonstrate my practical Manual QA skills and understanding of the software testing lifecycle while building a professional portfolio.
