@@ -7,8 +7,7 @@
 |---|---|
 | Test Scenario | TS-001 Verify website navigation |
 | Preconditions | User opens Vivi.lv homepage |
-| Steps | 1. Open homepage
-<br>
+| Steps | 1. Open homepage<br>
 2. Check navigation menu |
 | Expected Result | Navigation menu is displayed |
 | Related FR | FR-001 |
