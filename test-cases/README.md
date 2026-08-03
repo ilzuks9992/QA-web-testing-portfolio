@@ -1,5 +1,6 @@
 Test Case ID:
-* TC-001
+
+TC-001
 
 Test Scenario:
 * TS-001 Verify website navigation
