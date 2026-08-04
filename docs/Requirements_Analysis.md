@@ -132,7 +132,7 @@ Authentication
 * FR-078 The system shall allow the user to create a new account.
 * FR-079 The system shall provide access to the My Account area upon successful authentication.
 
-My Tickets
+My Tickets module
 * FR-080 The system shall display the user’s purchased tickets.
 * FR-081 The system shall allow the user to filter tickets by ticket type.
 * FR-082 The system shall provide access to the ticket purchase process.
@@ -179,7 +179,7 @@ Performance
 Usability
 * NFR-004 The navigation structure shall remain consistent across all public pages.
 * NFR-005 The system shall display validation and error messages that clearly describe the identified issue.
-* NFR-006 The system shall maintain a consistent layout and navigation across all public pages.
+* NFR-006 The system shall maintain a consistent user interface layout across all public pages.
 
 Accessibility
 * NFR-007 The system shall support text size adjustment options within accessibility settings.
@@ -187,7 +187,6 @@ Accessibility
 * NFR-009 The system shall allow users to reset accessibility settings to the default values.
 
 Compatibility
-
 * NFR-010 The system shall support the latest stable versions of commonly used web browsers.
 * NFR-011 The system shall provide a responsive user interface that adapts to different screen sizes and devices.
 
@@ -197,9 +196,9 @@ Security
 * NFR-014 The system shall validate user input before processing submitted data.
 
 Reliability
-* NFR-015 The system shall maintain availability during normal operating conditions.
-* NFR-016 The system shall handle invalid user input without causing system errors or failures.
-* NFR-017 The system shall provide informative messages when requested operations cannot be completed.
+* NFR-015 The system shall handle invalid user input without causing system errors or failures.
+* NFR-016 The system shall provide informative messages when requested operations cannot be completed.
+* NFR-017 The system shall maintain availability during normal operating conditions.
 
 
 ### 5. Business Rules
