@@ -45,6 +45,9 @@ The following areas are included in the scope of testing:
 Out of Scope
 
 The following areas are excluded from the scope of testing:
+* Compatibility testing across multiple web browsers
+* Responsive testing across mobile devices, tablets, and different screen resolutions
+* System availability during normal operating conditions
 * Backend services and internal system logic
 * Database functionality
 * Infrastructure and server performance testing
@@ -109,10 +112,13 @@ Testing will be performed using:
 Environment:
 * Web browser-based testing environment
 
-Browsers:
-* Google Chrome
+Browser:
+* Google Chrome, Version 150.0
 
-Devices:
+Operating System: 
+* macOS
+
+Device:
 * Desktop computer
 
 Testing Tools:
