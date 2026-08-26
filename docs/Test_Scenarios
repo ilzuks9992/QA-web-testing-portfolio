@@ -58,7 +58,7 @@ Verify that users can manage notification preferences and subscribe to route and
 TS-022	Verify payment card management	
 Verify that users can view and manage payment cards.	FR-092 – FR-093
 TS-023	Verify favourite routes	
-Verify that users can view and manage favourite routes.	FR-094 – FR-095
+Verify that users can  save, view, manage, and remove favourite routes.	FR-094 – FR-095
 TS-024	Verify purchase history	
 Verify that users can view purchase history and repeat previous ticket purchases.	FR-096 – FR-098
 TS-025	Verify account deletion	
@@ -72,13 +72,11 @@ Test Scenario ID	Test Scenario Description&Objective	Related NFR
 NTS-001	Verify system performance	
 Verify that public pages, search functionality, and the interactive map perform within acceptable response times under normal operating conditions.	NFR-001 – NFR-003
 NTS-002	Verify system usability	
-Verify that the website provides consistent navigation, layout, and clear validation and error messages across all public pages.	NFR-004 – NFR-006
+Verify that the website provides consistent navigation and layout across all public pages.	NFR-004 – NFR-006
 NTS-003	Verify accessibility features	
 Verify that accessibility settings support text size adjustment, contrast options, and restoring default settings.	NFR-007 – NFR-009
-NTS-004	Verify system security	
-Verify that user authentication, credential transmission, and input validation comply with the defined security requirements.	NFR-012 – NFR-014
-NTS-005	Verify system reliability	
-Verify that the system handles invalid input without failures, and provides appropriate messages when operations cannot be completed.	NFR-015 – NFR-016
+NTS-004	Verify system reliability	
+Verify that the system handles invalid input without failures, and provides appropriate messages when operations cannot be completed.	NFR-012 – NFR-014
 
 
 Test Scenario ID	Test Scenario Description&Objective	Related BR
