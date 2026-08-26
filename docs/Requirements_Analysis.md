@@ -28,7 +28,7 @@ Language Selection
 * FR-005 The system shall display the available languages.
 * FR-006 The system shall allow the user to select a language.
 * FR-007 The system shall update the user interface to the selected language.
-* FR-008 The system shall preserve the selected language during navigation.
+* FR-008 The system shall retain the selected language during navigation between public pages.
 
 Notifications
 * FR-009 The system shall display active notifications on the Home Page.
@@ -122,6 +122,11 @@ Ticket Purchase
 * FR-074 The system shall provide the option to register before completing the ticket purchase.
 * FR-075 The system shall display the available payment methods.
 * FR-076 The system shall allow the user to select a payment method.
+* FR-077 The system shall allow authenticated users to save a selected route as a favourite route.
+* FR-078 The system shall display saved favourite routes in the user’s Favourite Routes section.
+* FR-079 The system shall associate saved favourite routes with the authenticated user’s account.
+* FR-080 The system shall allow authenticated users to remove a saved route from their Favourite Routes.
+
 
 ### User Flow 3 – Registered User. 
 
@@ -178,27 +183,16 @@ Performance
 
 Usability
 * NFR-004 The navigation structure shall remain consistent across all public pages.
-* NFR-005 The system shall display validation and error messages that clearly describe the identified issue.
-* NFR-006 The system shall maintain a consistent user interface layout across all public pages.
-
-Accessibility
-* NFR-007 The system shall support text size adjustment options within accessibility settings.
-* NFR-008 The system shall support multiple interface contrast options within accessibility settings.
-* NFR-009 The system shall allow users to reset accessibility settings to the default values.
+* NFR-005 The system shall maintain a consistent user interface layout across all public pages.
 
 Compatibility
 * NFR-010 The system shall support the latest stable versions of commonly used web browsers.
 * NFR-011 The system shall provide a responsive user interface that adapts to different screen sizes and devices.
 
-Security
-* NFR-012 The system shall protect user authentication credentials during data transmission.
-* NFR-013 The system shall require user authentication before providing access to account-related functionality.
-* NFR-014 The system shall validate user input before processing submitted data.
-
 Reliability
-* NFR-015 The system shall handle invalid user input without causing system errors or failures.
-* NFR-016 The system shall provide informative messages when requested operations cannot be completed.
-* NFR-017 The system shall maintain availability during normal operating conditions.
+* NFR-012 The system shall handle invalid user input without causing system errors or failures.
+* NFR-013 The system shall provide informative messages when requested operations cannot be completed.
+* NFR-014 The system shall maintain availability during normal operating conditions.
 
 
 ### 5. Business Rules
@@ -247,6 +241,10 @@ Contact and Support Rules
 * BR-027 Train information displayed on the map shall correspond to the selected train route or train indicator.
 * BR-028 Station information shall be displayed only after the user selects a valid station.
 * BR-029 Nearby train information shall correspond to the selected station.
+* BR-030	Authenticated users may save selected routes as favourite routes.
+* BR-031	Saved favourite routes shall be displayed in the user’s Favourite Routes section.
+* BR-032	Authenticated users may remove saved favourite routes from their account.
+* BR-033	Favourite routes shall be associated with the authenticated user account.
 
 ### 4. Assumptions
 * ASS-001 The requirements analysis is based on publicly available Vivi.lv website functionality and user interface observations.
