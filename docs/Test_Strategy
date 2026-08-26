@@ -42,17 +42,17 @@ The following areas are included in the scope of testing:
 * Accessibility
 * Click-to-Call
 
-Out of Scope
+## Out of Scope
 
-The following areas are excluded from the scope of testing:
+The following testing activities are excluded from this project:
 * Compatibility testing across multiple web browsers
-* Responsive testing across mobile devices, tablets, and different screen resolutions
-* System availability during normal operating conditions
-* Backend services and internal system logic
-* Database functionality
+* Responsive testing across different devices and screen resolutions
+* Performance and load testing
+* Security testing
+* Availability and reliability monitoring
+* Backend services and database testing
 * Infrastructure and server performance testing
-* Third-party service implementations
-* Production infrastructure, monitoring, and system administration
+* Third-party service testing
 
 ### 4. Testing Approach
 
