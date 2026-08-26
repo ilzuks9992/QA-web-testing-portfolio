@@ -100,9 +100,8 @@ User Flow 3 – Registered User
 The following areas are outside the scope of this project:
 
 * Backend functionality
-* Database validation
+* Database structure and validation
 * Source code review
-* Performance and load testing
-* Security testing
-* Mobile application testing
+* Mobile application
 * Third-party integrations
+* Infrastructure and system administration
