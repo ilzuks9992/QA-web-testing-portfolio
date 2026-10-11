@@ -79,13 +79,40 @@ NTS-004	Verify system reliability
 Verify that the system handles invalid input without failures, and provides appropriate messages when operations cannot be completed.	NFR-012 – NFR-014
 
 
+### Business Rules Test Scenarios
 Test Scenario ID	Test Scenario Description&Objective	Related BR
-BTS-001 – Verify ticket purchase business rules	Verify that ticket search and purchase processes follow defined business rules.	BR-001 – BR-006
-BTS-002 – Verify user account business rules	Verify that user authentication and account management follow defined business rules.	BR-007 – BR-011
-BTS-003 – Verify ticket and purchase history business rules	Verify that purchased tickets and purchase history follow defined business rules.	BR-012 – BR-014
-BTS-004 – Verify notification and favourite route business rules	Verify that notification subscriptions and favourite routes follow defined business rules.	BR-015 – BR-017
-BTS-005 – Verify contact and support business rules	Verify that contact form submission follows defined business rules.	BR-018 – BR-020
-BTS-006 – Verify accessibility business rules	Verify that accessibility settings follow defined business rules.	BR-021 – BR-023
-BTS-007 – Verify news search business rules	Verify that news search functionality follows defined business rules.	BR-024 – BR-026
-BTS-008 – Verify map and route information business rules	Verify that map and route information follows defined business rules.	BR-027 – BR-029
+BTS-001 Verify ticket purchase business rules	
+Verify that ticket search and purchase processes follow defined business rules.	BR-001 – BR-006
+BTS-002 Verify user account business rules	
+Verify that user authentication and account management follow defined business rules.	BR-007 – BR-011
+BTS-003 Verify ticket and purchase history business rules	
+Verify that purchased tickets and purchase history follow defined business rules.	BR-012 – BR-014
+BTS-004 Verify notification and favourite route business rules	
+Verify that notification subscriptions and favourite routes follow defined business rules.	BR-015 – BR-017
+BTS-005 Verify contact and support business rules	
+Verify that contact form submission follows defined business rules.	BR-018 – BR-020
+BTS-006 Verify accessibility business rules	
+Verify that accessibility settings follow defined business rules.	BR-021 – BR-023
+BTS-007 Verify news search business rules	
+Verify that news search functionality follows defined business rules.	BR-024 – BR-026
+BTS-008 Verify map and route information business rules	
+Verify that map and route information follows defined business rules.	BR-027 – BR-029
+
+
+### Security Test Scenarios
+Test Scenario ID	Test Scenario Description&Objective	Related NFR
+STS-001 Verify authentication security
+Verify that unauthenticated users cannot access protected account pages or functions. NFR-015
+STS-002 Verify access control 
+Verify that authenticated users can access only their own account information, tickets, purchase history, and saved payment card information. NFR-015
+STS-003 Verify session management
+Verify that signing out terminates the authenticated session and prevents further access to protected account pages using the previous session. NFR-016
+STS-004 Verify input validation against injection attacks
+Verify that input fields handle potentially malicious input safely and do not execute injected scripts or database commands. NFR-017 
+STS-005 Verify sensitive information protection
+Verify that passwords, personal information, and payment card details are not exposed through website responses or error messages. NFR-018
+STS-006 Verify account access protection 
+Verify that repeated unsuccessful sign-in attempts are handled according to the website’s security requirements. NFR-019
+STS-007 Verify secure account deletion
+Verify that account deletion is restricted to the authenticated account owner and that the deletion process follows the defined security requirements. NFR-020
 
