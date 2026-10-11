@@ -195,7 +195,7 @@ Reliability
 * NFR-014 The system shall maintain availability during normal operating conditions.
 
 
-### 5. Business Rules
+### 3. Business Rules
 
 Ticket Purchase Rules
 * BR-001 A valid departure station and destination station must be selected before a train route search can be performed.
@@ -246,7 +246,19 @@ Contact and Support Rules
 * BR-032	Authenticated users may remove saved favourite routes from their account.
 * BR-033	Favourite routes shall be associated with the authenticated user account.
 
-### 4. Assumptions
+
+### 4. Security Requirements
+
+* SR-001 The system shall restrict access to protected pages and functions to authenticated users.
+* SR-002 Authenticated users shall only be able to access their own account information, tickets, purchase history, and payment card information.
+* SR-003 The system shall terminate the authenticated session when a user signs out and prevent further access to protected resources using the terminated session.
+* SR-004 The system shall validate and safely process user input to prevent the execution of malicious scripts and injection attacks.
+* SR-005 The system shall protect sensitive information, including passwords, personal information, and payment card details, from unauthorized disclosure.
+* SR-006 The system shall handle repeated unsuccessful sign-in attempts according to defined security requirements to reduce the risk of unauthorized account access.
+* SR-007 Only the authenticated account owner shall be permitted to initiate account deletion.
+
+
+### 5. Assumptions
 * ASS-001 The requirements analysis is based on publicly available Vivi.lv website functionality and user interface observations.
 * ASS-002 Internal system requirements, technical specifications, and backend processes are not accessible for review.
 * ASS-003 The observed website behaviour is considered to represent the intended system functionality.
@@ -255,7 +267,7 @@ Contact and Support Rules
 * ASS-006 The analysis reflects the functionality available at the time of testing and may not represent future system changes.
 * ASS-007 Test data, user accounts, and system configurations used during testing are considered representative of typical user scenarios.
 
-### 5. Risks
+### 6. Risks
 * RISK-001 Website functionality may change after completion of the requirements analysis.
 * RISK-002 The analysis may not fully cover internal system behaviour due to limited access to backend processes and technical documentation.
 * RISK-003 Some functionality may rely on third-party services that are outside the scope of this project and cannot be fully validated.
@@ -264,7 +276,7 @@ Contact and Support Rules
 * RISK-006 Changes to external services or integrations may impact system functionality.
 * RISK-007 Testing results may not represent all possible user scenarios due to limitations of the available test environment.
 
-### 6. Open Questions
+### 7. Open Questions
 * OQ-001 Which browsers and browser versions are officially supported by the system?
 * OQ-002 What are the defined performance requirements for page loading and search response times?
 * OQ-003 What password complexity requirements apply to user authentication?
