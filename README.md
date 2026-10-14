@@ -13,9 +13,8 @@ Project Scope
 * Requirement Analysis
 * Test Strategy
 * Test Scenario
-* Test Cases
+* Test Cases (F, NF, BR, S)
 * Bug Reports
-* Test Execution
 * Test Summary
 
 Tools
