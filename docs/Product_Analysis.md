@@ -85,8 +85,7 @@ User Flow 3 – Registered User
 2. Search for a train route
 3. Select a suitable train
 4. Purchase a ticket
-5. Receive the ticket
-6. View the ticket in the account or email
+5. View the purchased ticket in the account
 
 ### Assumptions
 
@@ -96,12 +95,11 @@ User Flow 3 – Registered User
 * The identified features and modules may be updated as the analysis progresses.
 
 ### Out of Scope
+The following activities are outside the scope of this testing:
 
-The following areas are outside the scope of this project:
-
-* Backend functionality
-* Database structure and validation
-* Source code review
-* Mobile application
-* Third-party integrations
-* Infrastructure and system administration
+* Backend Testing: Testing server-side logic and internal system components.
+* API Testing: Testing APIs and communication between system components.
+* Database Testing: Verifying database operations, data storage, and data integrity directly.
+* Performance Testing: Evaluating system performance, load capacity, and response times under different loads.
+* Security Testing Beyond the UI: Testing vulnerabilities that require specialized tools, elevated privileges, or access to internal system components.
+* English Language Version: Testing is limited to the Latvian (LV) version.
