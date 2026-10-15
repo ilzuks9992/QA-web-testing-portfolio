@@ -49,7 +49,7 @@ The following areas are included in the scope of testing:
 * Protection against repeated unsuccessful sign-in attempts
 * Account deletion access control
 
-## Out of Scope
+Out of Scope
 
 The following testing activities are excluded from this project:
 * Compatibility testing across multiple web browsers
@@ -175,7 +175,7 @@ Testing can be completed when:
 * Test results have been recorded.
 * A test summary report has been completed.
 
-11. Defect Management
+### 11. Defect Management
 
 Defects identified during testing shall be documented and tracked until resolution.
 
@@ -201,7 +201,7 @@ The following testing documents will be produced:
 * Bug Reports
 * Test Summary Report
 
-13. Risks and Mitigation
+### 13. Risks and Mitigation
 
 Website functionality may change during testing. Mitigation: Update test documentation and test cases as needed.
 Limited access to test accounts or test data may restrict test coverage.	 Mitigation: Perform testing using available accounts and document any limitations.
