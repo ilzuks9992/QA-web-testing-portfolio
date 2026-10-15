@@ -101,6 +101,7 @@ BTS-008 Verify map and route information business rules
 Verify that map and route information follows defined business rules.	BR-027 – BR-029
 
 
+### Security Test Scenarios
 Test Scenario ID	Test Scenario Description & Objective	Related Security Requirement
 STS-001	Verify authentication security. Verify that unauthenticated users cannot access protected account pages or functions.	SR-001
 STS-002	Verify access control. Verify that authenticated users can access only their own account information, tickets, purchase history, and saved payment card information.	SR-002
