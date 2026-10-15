@@ -61,8 +61,10 @@ TS-023	Verify favourite routes
 Verify that users can  save, view, manage, and remove favourite routes.	FR-094 – FR-095
 TS-024	Verify purchase history	
 Verify that users can view purchase history and repeat previous ticket purchases.	FR-096 – FR-098
-TS-025	Verify account deletion	
+TS-025	Verify succesful account deletion	
 Verify that authenticated users can delete their account.	FR-099
+TS-026  Verify account deletion confirmation
+Verify that the system displays a confirmation message before permanently deleting the user’s account and allows the user to cancel the deletion. FR-100
 
 
 
@@ -99,20 +101,11 @@ BTS-008 Verify map and route information business rules
 Verify that map and route information follows defined business rules.	BR-027 – BR-029
 
 
-### Security Test Scenarios
-Test Scenario ID	Test Scenario Description&Objective	Related NFR
-STS-001 Verify authentication security
-Verify that unauthenticated users cannot access protected account pages or functions. NFR-015
-STS-002 Verify access control 
-Verify that authenticated users can access only their own account information, tickets, purchase history, and saved payment card information. NFR-015
-STS-003 Verify session management
-Verify that signing out terminates the authenticated session and prevents further access to protected account pages using the previous session. NFR-016
-STS-004 Verify input validation against injection attacks
-Verify that input fields handle potentially malicious input safely and do not execute injected scripts or database commands. NFR-017 
-STS-005 Verify sensitive information protection
-Verify that passwords, personal information, and payment card details are not exposed through website responses or error messages. NFR-018
-STS-006 Verify account access protection 
-Verify that repeated unsuccessful sign-in attempts are handled according to the website’s security requirements. NFR-019
-STS-007 Verify secure account deletion
-Verify that account deletion is restricted to the authenticated account owner and that the deletion process follows the defined security requirements. NFR-020
+Test Scenario ID	Test Scenario Description & Objective	Related Security Requirement
+STS-001	Verify authentication security. Verify that unauthenticated users cannot access protected account pages or functions.	SR-001
+STS-002	Verify access control. Verify that authenticated users can access only their own account information, tickets, purchase history, and saved payment card information.	SR-002
+STS-003	Verify session management. Verify that signing out terminates the authenticated session and prevents further access to protected account pages using the terminated session.	SR-003
+STS-004	Verify input validation against injection attacks. Verify that input fields handle potentially malicious input safely and do not execute injected scripts or injection attacks.	SR-004
+STS-005	Verify sensitive information protection. Verify that passwords, personal information, and payment card details are protected from unauthorised disclosure.	SR-005
+STS-006	Verify protection against repeated unsuccessful sign-in attempts. Verify that repeated unsuccessful sign-in attempts are handled according to defined security requirements.	SR-006
 
