@@ -22,6 +22,7 @@ The testing objectives are to:
 ### 3. Test Scope
 
 In Scope
+Testing is limited to manual testing of the Vivi.lv website through its user interface (UI). Testing focuses on the functionality and behavior available to users through the website’s graphical interface. The website is tested in Latvian (LV) only.
 
 The following areas are included in the scope of testing:
 * Public website pages
@@ -41,6 +42,12 @@ The following areas are included in the scope of testing:
 * Contact and support
 * Accessibility
 * Click-to-Call
+* Security testing of authentication and access control
+* Session management
+* Input validation
+* Sensitive information protection
+* Protection against repeated unsuccessful sign-in attempts
+* Account deletion access control
 
 ## Out of Scope
 
@@ -48,11 +55,13 @@ The following testing activities are excluded from this project:
 * Compatibility testing across multiple web browsers
 * Responsive testing across different devices and screen resolutions
 * Performance and load testing
-* Security testing
 * Availability and reliability monitoring
 * Backend services and database testing
 * Infrastructure and server performance testing
 * Third-party service testing
+* Penetration testing
+* Automated attack testing
+* Infrastructure security testing
 
 ### 4. Testing Approach
 
@@ -64,6 +73,7 @@ The following testing techniques will be used:
 * Scenario-based testing to validate end-to-end user journeys.
 * Exploratory testing to identify unexpected behaviour and usability issues.
 * Regression testing to verify that existing functionality continues to work after changes.
+* Security testing will verify authentication, access control, session management, input validation, and data protection through authorised, non-invasive checks.
 
 
 ### 5. Test Types
@@ -92,6 +102,15 @@ Accessibility testing will verify:
 
 Regression Testing
 Regression testing will confirm that existing functionality remains unaffected after changes or fixes.
+
+Security testing:
+* Authentication and access control
+* Session management
+* Input validation
+* Sensitive information protection
+* Handling of repeated unsuccessful sign-in attempts
+* Account deletion access control
+
 
 ### 6. Test Levels
 
@@ -136,6 +155,7 @@ Testing will use representative test data, including:
 * User account data
 * Contact form input data
 * Different accessibility settings
+* Valid and invalid authentication inputs
 
 ### 9. Entry Criteria
 
@@ -176,13 +196,17 @@ The following testing documents will be produced:
 
 * Test Checklists
 * Test Scenarios
-* Test Cases
+* Test Cases (F, NF, BR, S)
 * Test Execution Results
 * Bug Reports
 * Test Summary Report
 
 13. Risks and Mitigation
 
-Website functionality may change during testing. Update test documentation and test cases as needed.
-Limited access to test accounts or test data may restrict test coverage.	 Perform testing using available accounts and document any limitations.
-Third-party services may be unavailable or behave unexpectedly.	Verify user-facing functionality and document any third-party limitations.
+Website functionality may change during testing. Mitigation: Update test documentation and test cases as needed.
+Limited access to test accounts or test data may restrict test coverage.	 Mitigation: Perform testing using available accounts and document any limitations.
+Third-party services may be unavailable or behave unexpectedly. Mitigation: Verify user-facing functionality and document any third-party limitations.
+Limited access to security features: Some tests may be blocked. Mitigation: Document limitations and mark tests as Blocked.
+Limited backend visibility: Server-side security cannot be fully verified. Mitigation: Document unverified controls.
+Unauthorised testing risk: Intrusive tests may affect live services. Mitigation: Perform only authorised, non-invasive tests.
+
