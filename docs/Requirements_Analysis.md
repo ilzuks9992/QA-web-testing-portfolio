@@ -172,6 +172,7 @@ Purchase History
 
 Delete Account
 * FR-099 The system shall allow the user to delete the account.
+* FR-100 The system shall display a confirmation message before permanently deleting the user’s account and allow the user to cancel the deletion.
 
 
 ### 2. Non-Functional Requirements
@@ -255,26 +256,35 @@ Contact and Support Rules
 * SR-004 The system shall validate and safely process user input to prevent the execution of malicious scripts and injection attacks.
 * SR-005 The system shall protect sensitive information, including passwords, personal information, and payment card details, from unauthorized disclosure.
 * SR-006 The system shall handle repeated unsuccessful sign-in attempts according to defined security requirements to reduce the risk of unauthorized account access.
-* SR-007 Only the authenticated account owner shall be permitted to initiate account deletion.
 
 
 ### 5. Assumptions
 * ASS-001 The requirements analysis is based on publicly available Vivi.lv website functionality and user interface observations.
 * ASS-002 Internal system requirements, technical specifications, and backend processes are not accessible for review.
-* ASS-003 The observed website behaviour is considered to represent the intended system functionality.
+* ASS-003 Functional behaviour is evaluated from the perspective of an end user.
 * ASS-004 Third-party services and integrations are considered to operate according to their intended functionality.
 * ASS-005 Payment processing, authentication services, and other external systems are outside the scope of this analysis.
 * ASS-006 The analysis reflects the functionality available at the time of testing and may not represent future system changes.
 * ASS-007 Test data, user accounts, and system configurations used during testing are considered representative of typical user scenarios.
 
-### 6. Risks
-* RISK-001 Website functionality may change after completion of the requirements analysis.
-* RISK-002 The analysis may not fully cover internal system behaviour due to limited access to backend processes and technical documentation.
-* RISK-003 Some functionality may rely on third-party services that are outside the scope of this project and cannot be fully validated.
-* RISK-004 Limited access to test accounts and test data may restrict validation of certain user account features.
-* RISK-005 Security-related requirements may not be fully verified without access to system architecture and security documentation.
-* RISK-006 Changes to external services or integrations may impact system functionality.
-* RISK-007 Testing results may not represent all possible user scenarios due to limitations of the available test environment.
+
+### 6. Project and Testing Risks
+
+Risk Description & Mitigation
+RISK-001 Website functionality may change after completion of the requirements analysis.
+Review and update requirements when changes are identified.
+RISK-002 Limited access to backend processes and technical documentation may affect analysis completeness.
+Document limitations and validate requirements against available information.
+RISK-003 Third-party services may not be fully validated.
+Document dependencies and define validation scope.
+RISK-004 Limited access to test data may restrict testing.
+Identify affected functionality and document limitations.
+RISK-005 Security requirements may not be fully verified without technical documentation.
+Document limitations and identify requirements needing further verification.
+RISK-006 Changes to external services may impact system functionality.
+Include relevant integration checks in regression testing based on the affected components and identified risks.
+RISK-007 Testing may not cover all user scenarios due to environment limitations.
+Document limitations and prioritise testing based on risk.
 
 ### 7. Open Questions
 * OQ-001 Which browsers and browser versions are officially supported by the system?
