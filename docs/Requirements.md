@@ -172,7 +172,6 @@ Purchase History
 
 Delete Account
 * FR-099 The system shall allow the user to delete the account.
-* FR-100 The system shall display a confirmation message before permanently deleting the user’s account and allow the user to cancel the deletion.
 
 
 ### 2. Non-Functional Requirements
