@@ -63,8 +63,6 @@ TS-024	Verify purchase history
 Verify that users can view purchase history and repeat previous ticket purchases.	FR-096 – FR-098
 TS-025	Verify succesful account deletion	
 Verify that authenticated users can delete their account.	FR-099
-TS-026  Verify account deletion confirmation
-Verify that the system displays a confirmation message before permanently deleting the user’s account and allows the user to cancel the deletion. FR-100
 
 
 
