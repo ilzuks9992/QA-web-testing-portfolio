@@ -13,6 +13,7 @@ Last Updated:
 
 Bug 1
 https://ilzuks9992.atlassian.net/browse/SCRUM-1?atlOrigin=eyJpIjoiNzMzMTU3ZDE2MzI4NDBmYjgzMTYwMjIwNjgxMjk4YjkiLCJwIjoiaiJ9
+
 Bug 2
 https://ilzuks9992.atlassian.net/browse/SCRUM-6?atlOrigin=eyJpIjoiYWE1MDAxMDBjM2U4NGQ3NjhiY2NjYzJjMzkwNWVhOTAiLCJwIjoiaiJ9
 Bug 3
