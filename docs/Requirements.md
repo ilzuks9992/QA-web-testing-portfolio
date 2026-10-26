@@ -133,45 +133,45 @@ Ticket Purchase
 My Account
 
 Authentication
-* FR-077 The system shall allow the user to sign in using a registered email address and password.
-* FR-078 The system shall allow the user to create a new account.
-* FR-079 The system shall provide access to the My Account area upon successful authentication.
+* FR-081 The system shall allow the user to sign in using a registered email address and password.
+* FR-082 The system shall allow the user to create a new account.
+* FR-083 The system shall provide access to the My Account area upon successful authentication.
 
 My Tickets module
-* FR-080 The system shall display the user’s purchased tickets.
-* FR-081 The system shall allow the user to filter tickets by ticket type.
-* FR-082 The system shall provide access to the ticket purchase process.
+* FR-084 The system shall display the user’s purchased tickets.
+* FR-085 The system shall allow the user to filter tickets by ticket type.
+* FR-086 The system shall provide access to the ticket purchase process.
 
 Profile
-* FR-083 The system shall display the user’s profile information.
-* FR-084 The system shall display the registered contact information.
-* FR-085 The system shall allow the user to manage discount card information.
-* FR-086 The system shall allow the user to add an email address for ticket delivery.
+* FR-087 The system shall display the user’s profile information.
+* FR-088 The system shall display the registered contact information.
+* FR-089 The system shall allow the user to manage discount card information.
+* FR-090 The system shall allow the user to add an email address for ticket delivery.
 
 Change Password
-* FR-087 The system shall allow the user to change the account password.
-* FR-088 The system shall require the current password, a new password, and confirmation of the new password.
+* FR-091 The system shall allow the user to change the account password.
+* FR-092 The system shall require the current password, a new password, and confirmation of the new password.
 
 Notification Preferences
-* FR-089 The system shall allow the user to manage notification preferences.
-* FR-090 The system shall allow the user to subscribe to route-specific notifications.
-* FR-091 The system shall allow the user to subscribe to news notifications.
+* FR-093 The system shall allow the user to manage notification preferences.
+* FR-094 The system shall allow the user to subscribe to route-specific notifications.
+* FR-095 The system shall allow the user to subscribe to news notifications.
 
 Payment Cards
-* FR-092 The system shall display saved payment cards.
-* FR-093 The system shall allow the user to add a new payment card.
+* FR-096 The system shall display saved payment cards.
+* FR-097 The system shall allow the user to add a new payment card.
 
 Favourite Routes
-* FR-094 The system shall display saved favourite routes.
-* FR-095 The system shall allow the user to add a new favourite route.
+* FR-098 The system shall display saved favourite routes.
+* FR-099 The system shall allow the user to add a new favourite route.
 
 Purchase History
-* FR-096 The system shall display the user’s purchase history.
-* FR-097 The system shall display purchase details, including the ticket number, train number, route, ticket type, payment date, order number, and purchase price.
-* FR-098 The system shall allow the user to repeat a previous ticket purchase.
+* FR-100 The system shall display the user’s purchase history.
+* FR-101 The system shall display purchase details, including the ticket number, train number, route, ticket type, payment date, order number, and purchase price.
+* FR-102 The system shall allow the user to repeat a previous ticket purchase.
 
 Delete Account
-* FR-099 The system shall allow the user to delete the account.
+* FR-103 The system shall allow the user to delete the account.
 
 
 ### 2. Non-Functional Requirements
