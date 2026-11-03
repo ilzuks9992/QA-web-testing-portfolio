@@ -23,4 +23,5 @@ Tools
 * Jira
 * Playwright
 * Chrome DevTools
+* Microsoft Excel
 
