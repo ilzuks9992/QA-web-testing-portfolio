@@ -14,13 +14,13 @@ Project Scope
 * Test Strategy
 * Test Scenario
 * Test Cases (F, NF, BR, S)
+* Automated Test Cases
 * Bug Reports
 * Test Summary
 
 Tools
 * GitHub
 * Jira
+* Playwright
 * Chrome DevTools
 
-Goal
-The purpose of this repository is to demonstrate my practical Manual QA skills and understanding of the software testing lifecycle while building a professional portfolio.
