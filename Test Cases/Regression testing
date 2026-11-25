@@ -1,0 +1,162 @@
+### Document Information
+
+Document: Regression Testing
+Identifier: QA-RS-2026-001
+Project: QA Portfolio – Vivi.lv Manual Testing
+Website: https://www.vivi.lv
+Version: 1.0
+Author: Ilze Brakovska
+Created: 2026-10-31
+Last Updated: 
+
+### Change Scenario
+
+This document describes a hypothetical redesign of the train search form on the Vivi.lv website.
+
+The assumed changes include:
+* Updated train search submission behaviour.
+
+Note: This is a simulated change scenario created for portfolio purposes. It does not represent a confirmed update implemented by Vivi.lv.
+
+### Testing Objective
+
+The objective of regression testing is to verify that existing functionality has not been negatively affected by the implemented changes.
+Testing will focus on the complete train search and booking flow to ensure that users can successfully search for journeys, view available results, select a journey, choose a ticket, and proceed to the booking process.
+
+### Scope of Testing
+
+In Scope
+The following areas will be covered:
+* Train search form display and functionality.
+* Departure and destination station selection.
+* Search results display.
+* Journey selection.
+* Ticket selection.
+* Booking process.
+* Complete train booking user flow.
+
+Out of Scope
+* Performance and load testing.
+* Comprehensive security testing.
+* Full payment processing validation.
+* Stress testing.
+* Detailed accessibility testing.
+
+### Entry Criteria
+
+Regression testing can begin when:
+
+* The updated functionality is available in the test environment.
+
+### Exit Criteria
+
+Regression testing can be considered complete when:
+
+* All planned test cases have been executed.
+* Critical and high-priority defects have been reported.
+* The overall test outcome has been evaluated.
+
+### E2E User Flow
+
+This user journey has been tested in Sanity testing:
+1. The user opens the Vivi.lv website.
+2. The user enters a departure station.
+3. The user enters a destination station.
+4. The user selects a travel date.
+5. The user clicks the search button.
+6. The system displays available journeys.
+7. The user selects a journey.
+
+The following user journey will be tested in Regression testing:
+8. The user selects a ticket.
+9. The user proceeds to the booking process.
+10. The user enters the required passenger information.
+11. The user confirms the booking details.
+12. The user proceeds to the payment step.
+
+
+
+### Regression Test Cases
+
+The regression test cases are selected from the existing Functional Test Cases document and reused.
+
+TC-058
+Verify search results can be sorted
+Actual Result: The search results are sorted according to the selected option.
+Status: Pass
+Priority: Medium
+
+TC-059
+Verify search results match selected sorting option
+Actual Result: The displayed search results follow the selected sorting option.
+Status: Pass
+Priority: Medium
+
+TC-060
+Verify train details can be viewed from search results
+Actual Result: Detailed information for the selected train is displayed.
+Status: Pass
+Priority: High
+
+TC-061
+Verify navigation to ticket selection page
+Actual Result: The user is navigated to the Ticket Selection page.
+Status: Pass
+Priority: High
+
+TC-062
+Verify available ticket types are displayed
+Actual Result: Available ticket types are displayed.
+Status: Pass
+Priority: High
+
+TC-063
+Verify user can select a ticket type
+Actual Result: The selected ticket type is chosen successfully.
+Status: Pass
+Priority: High
+
+TC-064
+Verify ticket options are displayed for selected ticket type
+Actual Result: Ticket options related to the selected ticket type are displayed.
+Status: Pass
+Priority: High
+
+TC-065
+Verify ticket purchase is available for guest users
+Actual Result: The user can continue the ticket purchase process as a guest user.
+Status: Pass
+Priority: High
+
+TC-066
+Verify ticket purchase is available for registered users
+Actual Result: The user can continue the ticket purchase process as a registered user.
+Status: Pass
+Priority: High
+
+TC-068
+Verify available payment methods are displayed
+Actual Result: Available payment methods are displayed.
+Status: Pass
+Priority: High
+
+TC-069
+Verify payment method can be selected
+Actual Result: The selected payment method is chosen successfully.
+Status: Pass
+Priority: High
+
+
+### Test Summary
+
+Total test cases: 11
+Passed: 11
+Failed: 0
+Blocked: 0
+Not Run: 0
+Overall result: Pass
+
+Conclusion: 
+All 11 regression test cases passed successfully. No failed, blocked, or unexecuted test cases were recorded.
+The testing confirmed that the existing functionality covered by the selected regression test cases was not negatively affected by the hypothetical changes to the train search form.
+Based on the test results, regression testing was successful, and no issues were identified within the tested scope.
