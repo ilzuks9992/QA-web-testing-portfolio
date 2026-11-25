@@ -1,0 +1,201 @@
+### Document Information
+
+Document: Smoke Test Suite
+Identifier: QA-SMT-2026-001
+Project: QA Portfolio – Vivi.lv Manual Testing
+Website: https://www.vivi.lv
+Version: 1.0
+Author: Ilze Brakovska
+Created: 2026-10-30
+Last Updated:
+
+### Testing Objective
+
+The purpose of smoke testing is to verify that the critical functionality of the Vivi.lv website works as expected and that the application is stable enough for further testing.
+This test suite focuses on the main user-facing features and basic navigation. It is not intended to provide comprehensive functional coverage.
+
+### Scope of Testing
+
+In scope
+* Website availability
+* Main navigation
+* Train search
+* Journey search results
+* Access to the registration section
+* Access to the sign-in page
+* Access to contact information
+
+Out of scope
+* Detailed input validation
+* Comprehensive business rules testing
+* Accessibility testing
+* Performance testing
+* Detailed security testing
+* Complete ticket purchase and payment validation
+These areas require separate test cases and more detailed testing.
+
+### Entry Criteria
+
+Smoke testing can begin when:
+* The website is accessible.
+* The test environment is available.
+* The browser is functioning correctly.
+* The application has been deployed or made available for testing.
+
+### Exit Criteria
+
+Smoke testing is considered successful when all critical test cases pass.
+If a critical test case fails, the issue should be documented and reported. Further testing may be postponed until the failure is investigated.
+
+### Test Cases
+
+ST-001: Verify Website Availability
+
+Preconditions: The test environment is available.
+Test steps:
+1. Open a web browser.
+2. Navigate to the Vivi.lv website.
+3. Wait for the page to load.
+Expected result:
+* The website loads successfully.
+* The homepage is displayed.
+* No blocking error message is shown.
+* The main page content is visible.
+Actual Result: 
+* The website loads successfully.
+* The homepage is displayed.
+* No blocking error message is shown.
+* The main page content is visible.
+Status: Pass
+Priority: Critical
+
+ST-002: Verify Main Navigation
+
+Preconditions: The homepage is displayed.
+Test steps:
+1. Locate the main navigation menu.
+2. Select an available main navigation item.
+3. Verify that the corresponding page or section opens.
+Expected result:
+* The navigation menu is visible.
+* The selected navigation item responds to user interaction.
+* The corresponding page or section opens without an error.
+Actual Result:
+* The navigation menu is visible.
+* The selected navigation item responds to user interaction.
+* The corresponding page or section opens without an error.
+Status: Pass
+Priority: High
+
+ST-003: Verify Train Search
+
+Preconditions: 
+The train search functionality is available.
+Test steps:
+1. In home page locate the train search interface.
+2. Select a valid departure station.
+3. Select a valid destination station.
+4. Select a valid travel date.
+5. Start the search.
+Expected result:
+* The search request is processed.
+* The system displays matching journeys or an appropriate message if no journeys are available.
+* No unexpected error occurs.
+Actual Result:
+* The search request is processed.
+* The system displays matching journeys or an appropriate message if no journeys are available.
+* No unexpected error occurs.
+Status: Pass
+Priority: Critical
+
+ST-004: Verify Ticket Selection and Purchase Flow
+
+Preconditions:
+The train search functionality is available.
+Test steps:
+1. In home page locate the train search interface and
+enter valid search criteria.
+2. Start the search.
+3. Select an available journey.
+4. Click the cart button to continue with the ticket purchase process.
+5. Verify that the next step of the process opens.
+Expected result:
+* Available journeys are displayed.
+* The user can select and open a journey.
+* The user can proceed to the next step of the ticket purchase process.
+* The relevant ticket information is displayed without errors.
+Actual Result:
+* Available journeys are displayed.
+* The user can select and open a journey.
+* The user can proceed to the next step of the ticket purchase process.
+* The relevant ticket information is displayed without errors.
+Status: Pass
+Priority: Critical
+
+ST-005: Verify Registration Functionality
+
+Preconditions:
+Registration is available. A unique email address is available for testing.
+Test steps:
+1. Open the registration page.
+2. Enter valid registration details.
+3. Submit the registration form.
+4. Verify the result.
+Expected result:
+* The registration process completes successfully.
+* No unexpected errors are displayed.
+Actual Result:
+* The registration process completes successfully.
+* No unexpected errors are displayed.
+Status: Pass
+Priority: High
+
+ST-006: Verify Sign in Functionality
+
+Preconditions:
+A registered test account is available.
+Test steps:
+1. Open the Sign in page.
+2. Enter valid login credentials.
+3. Submit the form.
+4. Verify the result.
+Expected result:
+* The user can sign in successfully.
+* The user is redirected to the authenticated state.
+* No unexpected errors are displayed.
+Actual Result:
+* The user can sign in successfully.
+* The user is redirected to the authenticated state.
+* No unexpected errors are displayed.
+Status: Pass
+Priority: High
+
+ST-007: Verify Contact Information or Contact Form
+
+Preconditions:
+Test steps:
+1. Navigate to the contact page.
+2. Review the displayed contact information.
+3. If a contact form is available, verify that the form is displayed.
+Expected result:
+* The contact page opens successfully.
+* Available contact information is displayed.
+* Its fields and controls are visible.
+Actual Result:
+* The contact page opens successfully.
+* Available contact information is displayed.
+* Its fields and controls are visible.
+Status: Pass
+Priority: Medium
+
+### Test Summary
+
+Total test cases: 7
+Passed: 7
+Failed: 0
+Blocked: 0
+Not Run: 0
+Overall result: Pass
+
+Conclusion: 
+All 7 smoke test cases passed successfully. No failures or blocked tests were recorded. The tested core functionalities behaved as expected during this test run. Based on the results, the smoke testing was successful, and no critical issues were identified within the tested scope.
