@@ -1,0 +1,65 @@
+### Document Information
+
+Document: Test Summary Report
+Identifier: QA-TSR-2026-002
+Project: QA Portfolio – Vivi.lv Manual Testing
+Website: https://www.vivi.lv
+Version: 2.0
+Author: Ilze Brakovska
+Created: 2026-10-31
+Last Updated: 2026-10-31
+
+
+### Purpose of the Document
+
+This document summarises the results of manual testing performed on the Vivi.lv website. It provides an overview of test execution, test results, and identified defects.
+The testing was performed according to the scope and approach defined in the Test Strategy.
+All identified defects were documented and registered in Jira, including their descriptions, actual results, and relevant evidence.
+
+### Execution Notes
+
+* Testing start date: 04.08.2026
+* Testing end date: 31.10.2026
+* Main defects: Testing revealed several issues, including missing validation and feedback messages, incorrect language display, unavailable train information, problems with contact form submission and train search, as well as weaknesses in session management and sign-in security.
+* Reasons for blocked or unexecuted tests: Tests could not be completed due to unavailable test data (discount card), restricted security testing permissions, and unavailable Favourite Routes functionality in the user interface.
+
+Prepared by	Ilze Brakovska
+Reviewed by	Ilze Brakovska
+Executed by	Ilze Brakovska
+
+### Testing results
+
+Testing Type	Planned	Executed	Passed	Failed	Blocked
+
+Functional	92	92	87	4	1
+Non-functional	18	18	11	5	1
+Security		13	15	9	2	1
+Business Rules 18	18	12	2	4
+Smoke		7	7	7	0	0
+Sanity		4	4	4	0	0
+Regression	11	11	11	0	0
+Total			163	163	141	13	7
+
+
+### Defect Summary
+
+This section summarises the defects identified during testing.
+Total Defects Identified: 20
+
+Defects by Severity
+
+Severity	Count
+Critical	0
+High		7
+Medium	11
+Low		2
+
+
+### Conclusion and Recommendations
+
+Manual testing of the Vivi.lv website identified defects affecting functionality, validation, language localisation, and session management. Some tests could not be completed due to missing test data, unavailable functionality, and restricted permissions.
+All identified defects were registered in Jira.
+
+Recommendations:
+* Resolve the identified defects and retest the affected functionality.
+* Complete blocked tests when the necessary conditions are available.
