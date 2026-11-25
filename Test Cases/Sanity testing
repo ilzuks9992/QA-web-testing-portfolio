@@ -1,0 +1,163 @@
+### Document Information
+
+Document: Sanity Test Suite
+Identifier: QA-SNT-2026-001
+Project: QA Portfolio – Vivi.lv Manual Testing
+Website: https://www.vivi.lv
+Version: 1.0
+Author: Ilze Brakovska
+Created: 2026-10-31
+Last Updated:
+
+
+### Change Scenario
+
+This document describes a hypothetical redesign of the train search form on the Vivi.lv website.
+
+The assumed changes include:
+* Updated train search submission behaviour.
+
+Note: This is a simulated change scenario created for portfolio purposes. It does not represent a confirmed update implemented by Vivi.lv.
+
+
+### Testing Objective
+
+The objective of Sanity Testing is to verify that the modified train search functionality works correctly after the changes.
+
+The main objectives are:
+* Verify that the search form is displayed correctly.
+* Verify that users can enter search criteria.
+* Verify that input validation works correctly.
+* Verify that a search can be submitted and results are displayed.
+
+### Scope of Testing
+
+In Scope
+* Train search form display and input fields.
+* Date selection and search validation.
+* Search submission and results display.
+* Basic verification of the next step in the ticket selection flow, if available.
+
+Out of Scope
+* Complete ticket booking and payment process.
+* Unrelated website functionality.
+
+### Entry Criteria
+
+Sanity Testing can begin when:
+* The updated train search functionality is available.
+* The test environment is accessible.
+* The main changes have been deployed.
+
+### Exit Criteria
+
+Sanity Testing is considered complete when:
+* All planned sanity test cases have been executed.
+* Critical issues have been identified and reported.
+* The affected functionality is considered stable enough for further testing.
+
+### Test Cases
+
+ST-001: Verify Updated Train Search Form Display
+
+Preconditions:
+* The Vivi.lv website is accessible.
+* The updated train search form is available.
+Test Steps:
+1. Open the Vivi.lv website.
+2. Navigate to the train search section.
+3. Observe the updated form layout.
+4. Check the departure, destination and date fields.
+Expected Result:
+* The website loads successfully.
+* The train search form is displayed.
+* The form elements are displayed correctly without visible layout issues.
+* All expected input fields are visible and accessible.
+Actual Result:
+* The website loads successfully.
+* The train search form is displayed.
+* The form elements are displayed correctly without visible layout issues.
+* All expected input fields are visible and accessible.
+Status: Pass
+Priority: High
+
+ST-002: Verify Train Search Criteria Selection
+
+Preconditions:
+* The train search form is displayed.
+Test Steps:
+1. Enter a valid departure station.
+2. Enter a valid destination station.
+3. Select a valid travel date.
+4. Check the selected date.
+Expected Result:
+* The entered departure station is accepted and displayed in the selection list.
+* The entered destination station is accepted and displayed in the selection list.
+* The date selection interface opens.
+* The selected date is displayed in the date field.
+* The displayed date matches the selected date.
+Actual Result:
+* The entered departure station is accepted and displayed in the selection list.
+* The entered destination station is accepted and displayed in the selection list.
+* The date selection interface opens.
+* The selected date is displayed in the date field.
+* The displayed date matches the selected date.
+Status: Pass
+Priority: High
+
+ST-003: Verify Train Search Submission
+
+Preconditions:
+* The train search form is displayed.
+* Valid test data is available.
+Test Steps:
+1. Select a valid departure station.
+2. Select a valid destination station.
+3. Select a valid travel date.
+4. Click the search button.
+5. Wait for the search response.
+Expected Result:
+* The search request is submitted successfully.
+* The system processes the request without displaying an unexpected error.
+Actual Result:
+* The search request is submitted successfully.
+* The system processes the request without displaying an unexpected error.
+Status: Pass
+Priority: High
+
+ST-004: Verify Search Results Display
+
+Preconditions:
+* A valid train search request has been submitted.
+* Test data is available for the selected route and date.
+Test Steps:
+1. Submit a valid train search request.
+2. Wait for the results page or results section to load.
+3. Review the displayed results.
+4. Check the departure and destination information.
+5. Check the travel date.
+Expected Result:
+* The system processes the search request and search results are displayed.
+* Available journey information is displayed correctly.
+* The displayed route matches the submitted search criteria.
+* The displayed travel date matches the selected date.
+Actual Result:
+* The system processes the search request and search results are displayed.
+* Available journey information is displayed correctly.
+* The displayed route matches the submitted search criteria.
+* The displayed travel date matches the selected date.
+Status: Pass
+Priority: High
+
+
+### Test Summary
+
+Total test cases: 4
+Passed: 4
+Failed: 0
+Blocked: 0
+Not Run: 0
+Overall result: Pass
+
+Conclusion: 
+All 4 sanity test cases passed successfully. No failed, blocked, or unexecuted test cases were recorded. The train search form behaved as expected during testing. Based on the results, the sanity testing was successful, and no issues were identified within the tested scope.
