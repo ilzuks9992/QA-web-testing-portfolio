@@ -63,9 +63,8 @@ The following testing activities are excluded from this project:
 
 ### 4. Testing Approach
 
-Testing will be performed using a black-box approach based on publicly available website functionality and defined user flows.
-
-The following testing techniques will be used:
+The following testing approaches will be used:
+* Black-box approach based on publicly available website functionality and defined user flows.
 * Requirement-based testing to verify compliance with functional requirements.
 * Scenario-based testing to validate end-to-end user journeys.
 
